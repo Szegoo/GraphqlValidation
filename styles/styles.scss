@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+@import "./login-form.scss";
+@import "./signin-form.scss";
+:root {
+  box-sizing: border-box; }
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+  font-family: 'Salsa', cursive;
+}
+
+body {
+  margin: 0; 
+  .navigation-bar {
+      h1 {
+          color: #FF6464;
+          font-size: 36px;
+      }
+      a {
+          font-size: 24px;
+      }
+  }
+  main {
+      padding: 4em;
+      h1 {
+          color: #FFC700;
+          font-size: 70px;
+      }
+      button {
+          background-color: #68CC72;
+          border: none;
+          color: white;
+          padding: .4em .6em;
+          font-size: 20px;
+          &:hover {
+              cursor: pointer;
+          }
+      }
+      h3 {
+          font-size: 26px;
+          font-weight: 200;
+          font-family: Arial, Helvetica, sans-serif;
+          color: #8b8b8b;
+      }
+  }
+}
